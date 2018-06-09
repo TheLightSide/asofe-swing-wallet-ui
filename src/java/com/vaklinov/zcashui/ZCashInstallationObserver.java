@@ -226,11 +226,11 @@ public class ZCashInstallationObserver
 
 				if (i == 0)
 				{
-					if (token.equals("zcashd.exe") || token.equals("zcashd"))
+					if (token.equals("asofed.exe") || token.equals("asofed"))
 					{
 						info.status = DAEMON_STATUS.RUNNING;
 						foundZCash = true;
-						//System.out.println("ZCashd process data is: " + line);
+						//System.out.println("Asofed process data is: " + line);
 					}
 				} else if ((i >= 4) && foundZCash)
 				{
